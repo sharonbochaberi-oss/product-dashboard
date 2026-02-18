@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #e6e6e6;
+  padding: 12px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin: 0 0 6px 0;
+}
+
+.price {
+  color: #2a9d8f;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.desc {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.outofstock {
+  opacity: 0.5;
+  background-color: #f0f0f0;
+}
