@@ -57,5 +57,3 @@ All tests must pass before submitting the lab.
 
 ## AUTHOR
 Ouko Sharon - Dynamic Product Dashboard Lab
-
-
