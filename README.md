@@ -1,16 +1,61 @@
-# React + Vite
+Dynamic Product Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a Dynamic Product Dashboard built with React and powered by Vite. The application dynamically renders product information, allows users to filter products by availability, and uses conditional rendering to display different UI states.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project also includes pre-written automated tests using Jest and React Testing Library, which must pass before submission.
 
-## React Compiler
+## Tech Stack
+1. React
+2. Vite
+3. CSS Modules
+4. Material UI
+5. Jest
+6. React Testing Library
+7. Node.js
+8. npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+src/
+│
+├── components/
+│   ├── ProductCard.jsx
+│   ├── ProductList.jsx
+│
+├── styles/
+│   └── Product.module.css
+│
+├── App.jsx
+└── main.jsx
 
-## Expanding the ESLint configuration
+## Installation and Setup
+1. clone repository
+git clone <repository-url>
+cd PRODUCT-DASHBOARD
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+npm install
+
+3. Install required packages.
+npm install @mui/material @emotion/react @emotion/styled
+
+4. Start the development server
+npm run dev
+
+## Testing
+This project includes pre-written automated tests.
+Run Tests
+npm test
+
+Tests validate:
+Correct rendering of product cards
+Proper filtering behavior
+Conditional UI states
+Component structure expectations
+All tests must pass before submitting the lab.
+
+## AUTHOR
+Ouko Sharon - Dynamic Product Dashboard Lab
+
+
