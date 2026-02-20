@@ -13,7 +13,7 @@ const ProductList = ({ products }) => {
         </Typography>
       ) : (
         <Grid container spacing={2}>
-          {products.map((product) => (
+          {inStockProducts.map((product) => (
             <Grid item key={product.id}>
               <ProductCard product={product} />
             </Grid>
